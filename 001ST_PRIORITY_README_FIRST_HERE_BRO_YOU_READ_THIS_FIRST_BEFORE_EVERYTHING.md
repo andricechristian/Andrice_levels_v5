@@ -42,7 +42,7 @@ The file 01 is to import 1m or 5m OHLCV csv to convert it to the needed RTH sesi
 here's what the convertion is looking like :
 what you import  .csv: date,time,open,high,low,close,volume 
 it convert it to .csv: Session,Date,O_RTH,H_RTH,L_RTH,C_RTH,HOD_Time,LOD_Time,Extreme_First,PUV_Points,PDV_Points,PUV_Percent,PDV_Percent,RTH_Range_Points,Calendar_Days_Since_Previous_Complete,ATR_Sequence_Reset,Previous_Complete_RTH_Close,TR_RTH,ATR14_Previous,ATR14_End,PUV_ATR,PDV_ATR,RTH_Volume,Bar_Count,Duplicate_Bars
-"""
+
 
 F)
 This is for the file Andrice_RTH_Sessions_v1.2.jar 
@@ -51,3 +51,4 @@ you should always update your converted csv file for the rth sessions to the lat
 
 G)This is for the file Andrice_Levels_v2.1 
 this is a pine script code for a Trading View Indicator when you paste the levels that the 02_calculate python code return it will automatically plot the areas needed 
+"""
